@@ -1,8 +1,9 @@
 function pyramid(x) {
-    var oddNumber = 1;  
+    //var oddNumber = 1;  
 
     
     for (var i = 1; i <= x; i++) {  // O(x)
+        var oddNumber = 1;
         var row = '';  
 
         for (var j = 0; j < i; j++) {  //  O(i)
